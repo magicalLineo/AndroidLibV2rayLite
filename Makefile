@@ -27,5 +27,5 @@ BuildMobile:
 	gomobile init
 	gomobile bind -v -ldflags='-s -w' github.com/2dust/AndroidLibV2rayLite
 
-all: asset pb fetchDep
+all: pb fetchDep downloadGoMobile
 	@echo DONE
